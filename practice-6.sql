@@ -14,5 +14,5 @@
 -- | Bridgeport             | 5559     |
 -- | Brighton Park          | 678      |
 -- | Burnside               | 10       |
-
-
+-- Will need to join the tables first
+SELECT neighborhood FROM listings, COUNT (reviews) from reviews  GROUP BY neighborhood;
